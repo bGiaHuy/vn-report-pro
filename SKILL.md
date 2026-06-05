@@ -1,7 +1,7 @@
 ---
 name: vn-report-pro-v3
 description: >
-  Phiên bản V3 — skill tạo văn bản học thuật / hành chính tiếng Việt chuẩn FPT, tích hợp
+  Phiên bản V3 — skill tạo văn bản học thuật / hành chính tiếng Việt chuẩn , tích hợp
   toàn bộ python-docx code triển khai + quy tắc ngôn ngữ hành chính + validation checklist.
   Hỗ trợ 4 loại tài liệu: Đề xuất dự án, Báo cáo nghiên cứu, Biên bản họp, Văn bản tổng hợp.
   Dùng khi người dùng yêu cầu: "tạo file word", "viết báo cáo", "đề xuất dự án", "soạn .docx",
