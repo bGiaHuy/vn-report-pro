@@ -1,6 +1,6 @@
 # VN Report Pro — Skill tạo văn bản hành chính tiếng Việt
 
-Skill dành cho AI agent (Claude, Marvis, v.v.) để tạo file Word (.docx) theo chuẩn văn bản hành chính — học thuật Việt Nam, phong cách FPT University.
+Skill dành cho AI agent (Claude, Marvis, v.v.) để tạo file Word (.docx) theo chuẩn văn bản hành chính — học thuật Việt Nam, 
 
 ## SKILL v5 — NĐ30/2020 + Ngôn ngữ hành chính (Mới nhất)
 
