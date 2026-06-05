@@ -2,7 +2,23 @@
 
 Skill dành cho AI agent (Claude, Marvis, v.v.) để tạo file Word (.docx) theo chuẩn văn bản hành chính — học thuật Việt Nam, phong cách FPT University.
 
-## Tính năng
+## SKILL v4 — NĐ30/2020/NĐ-CP (Cập nhật lớn)
+
+Bản cập nhật lớn dựa trên **Nghị định 30/2020/NĐ-CP** — chuẩn hiện hành về công tác văn thư, có đối chiếu với **TT01/2011/TT-BNV**. File: [`SKILL_v4_NĐ30.md`](./SKILL_v4_NĐ30.md).
+
+**Nội dung chính:**
+
+| Thành phần | Mô tả |
+|---|---|
+| **Quy tắc kỹ thuật** | Khổ A4, lề 20–25/20–25/30–35/15–20 mm, Times New Roman, giãn dòng 1.0–1.5, thụt đầu dòng 1 cm hoặc 1,27 cm, số trang (không hiển thị trang 1) |
+| **9 thành phần thể thức** | Quốc hiệu & Tiêu ngữ → Tên cơ quan → Số/ký hiệu → Địa danh & thời gian → Tên loại & trích yếu → Nội dung → Chữ ký → Dấu → Nơi nhận (+ thành phần bổ sung: phụ lục, độ mật, độ khẩn, phạm vi lưu hành) |
+| **Quy tắc viết hoa** | 22 trường hợp theo PL II NĐ30: tên người, địa danh, cơ quan, chức vụ, ngày lễ, sự kiện lịch sử, v.v. |
+| **Quy tắc viết tắt** | 27 mã viết tắt tên loại VB + 3 mã bản sao theo PL III NĐ30 (có đối chiếu thay đổi so với TT01 cũ: GN→BGN, TTh→BTT, UQ→GUQ, TS→TrS) |
+| **Checklist 18 mục** | Kiểm tra toàn diện trước khi output: từ quốc hiệu, số/ký hiệu, địa danh, bố cục nội dung, chữ ký, dấu, nơi nhận đến viết hoa, viết tắt |
+| **Bảng tra nhanh** | Cỡ chữ & kiểu chữ cho tất cả thành phần thể thức (24 dòng) |
+| **5 skeleton biểu mẫu** | Văn bản có tên loại, Công văn, Quyết định, Biên bản, Giáo án |
+
+## Tính năng (v3)
 
 - **4 loại tài liệu**: Đề xuất dự án, Báo cáo nghiên cứu, Biên bản họp, Văn bản tổng hợp
 - **Chuẩn trình bày**: Times New Roman, đen toàn bộ (#000000), Letter size, margin 3/3/2/2 cm
@@ -16,7 +32,8 @@ Skill dành cho AI agent (Claude, Marvis, v.v.) để tạo file Word (.docx) th
 
 ```
 vn-report-pro/
-├── SKILL.md                          # Hướng dẫn chính cho AI agent
+├── SKILL.md                          # Hướng dẫn chính cho AI agent (v3)
+├── SKILL_v4_NĐ30.md                  # Quy tắc trình bày theo NĐ30/2020/NĐ-CP (v4)
 └── references/
     ├── style-spec.md                 # Toàn bộ python-docx code blueprint
     └── validation-checklist.md       # Checklist 10 mục + code tự kiểm
