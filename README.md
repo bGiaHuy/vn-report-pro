@@ -46,7 +46,7 @@ vn-report-pro/
 
 ## Cách dùng
 
-### Với Marvis / Claude
+### Với Marvis / Claude / gemini
 
 Đặt thư mục skill vào `skills/market/`, sau đó ra lệnh bằng tiếng Việt:
 
